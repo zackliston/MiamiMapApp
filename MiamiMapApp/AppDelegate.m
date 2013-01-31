@@ -1,10 +1,6 @@
 //
 //  AppDelegate.m
-//  Table Demo
-//
-//  Created by Lee Calloway on 11/7/12.
-//  Copyright (c) 2012 Lee Calloway. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 #import "ViewController.h"

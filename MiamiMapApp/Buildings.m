@@ -1,10 +1,7 @@
 //
 //  Buildings.m
 //  Miami U Map
-//
-//  Created by Lee Calloway on 11/4/12.
-//  Copyright (c) 2012 Lee Calloway. All rights reserved.
-//
+
 
 #import "Buildings.h"
 #import "Building.h"

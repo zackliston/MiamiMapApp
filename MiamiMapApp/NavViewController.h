@@ -1,10 +1,6 @@
 //
 //  NavViewController.h
-//  NavController Demo
-//
-//  Created by Lee Calloway on 10/30/12.
-//  Copyright (c) 2012 Lee Calloway. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 

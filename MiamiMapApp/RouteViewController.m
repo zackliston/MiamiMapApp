@@ -2,9 +2,6 @@
 //  RouteViewController.m
 //  MiamiMapApp
 //
-//  Created by Eliot Fowler on 11/28/12.
-//  Copyright (c) 2012 eliotfowler. All rights reserved.
-//
 
 #import "RouteViewController.h"
 #import "AppDelegate.h"
