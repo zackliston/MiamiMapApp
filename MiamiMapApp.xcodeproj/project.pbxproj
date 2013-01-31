@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0703D13516602B22003C1D8C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0703D13116602AE3003C1D8C /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0703D13716602BDF003C1D8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0703D13616602BDF003C1D8C /* SystemConfiguration.framework */; };
+		F52EF49416546274008BAD34 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF492165460F1008BAD34 /* NavViewController.m */; };
+		F52EF495165463E8008BAD34 /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52EF493165460F1008BAD34 /* NavViewController.xib */; };
+		F52EF49716546425008BAD34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E01A68164B1E7600E716AB /* ViewController.xib */; };
+		F52EF498165466A1008BAD34 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF48E165458B9008BAD34 /* MapViewController.m */; };
+		F52EF4A216546AA7008BAD34 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52EF4A116546AA6008BAD34 /* MapViewController.xib */; };
+		F52EF4A316546ACB008BAD34 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF49A1654693B008BAD34 /* Building.m */; };
+		F52EF4A416546ACB008BAD34 /* Buildings.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF49C1654693C008BAD34 /* Buildings.m */; };
+		F52EF4A616546B95008BAD34 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52EF4A516546B95008BAD34 /* CoreLocation.framework */; };
+		F52EF4A816546B9A008BAD34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52EF4A716546B9A008BAD34 /* MapKit.framework */; };
+		F53436531666DFB6001544B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53436521666DFB6001544B3 /* SystemConfiguration.framework */; };
+		F5DFE2081666D2260056A293 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DFE2071666D2260056A293 /* RouteViewController.m */; };
+		F5DFE20B1666D3FC0056A293 /* RouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DFE20A1666D3FC0056A293 /* RouteViewController.xib */; };
+		F5DFE2131666DAD90056A293 /* NoNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DFE2111666DAD80056A293 /* NoNetworkViewController.m */; };
+		F5DFE2141666DAD90056A293 /* NoNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DFE2121666DAD80056A293 /* NoNetworkViewController.xib */; };
+		F5DFE2171666DAF70056A293 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DFE2161666DAF60056A293 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5E01A4E164B1E7500E716AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E01A4D164B1E7500E716AB /* UIKit.framework */; };
+		F5E01A50164B1E7500E716AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E01A4F164B1E7500E716AB /* Foundation.framework */; };
+		F5E01A52164B1E7500E716AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E01A51164B1E7500E716AB /* CoreGraphics.framework */; };
+		F5E01A58164B1E7600E716AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5E01A56164B1E7600E716AB /* InfoPlist.strings */; };
+		F5E01A5A164B1E7600E716AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E01A59164B1E7600E716AB /* main.m */; };
+		F5E01A5E164B1E7600E716AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E01A5D164B1E7600E716AB /* AppDelegate.m */; };
+		F5E01A60164B1E7600E716AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E01A5F164B1E7600E716AB /* Default.png */; };
+		F5E01A62164B1E7600E716AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E01A61164B1E7600E716AB /* Default@2x.png */; };
+		F5E01A64164B1E7600E716AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E01A63164B1E7600E716AB /* Default-568h@2x.png */; };
+		F5E01A67164B1E7600E716AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E01A66164B1E7600E716AB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0703D13116602AE3003C1D8C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability 4/Reachability/Reachability.m"; sourceTree = "<group>"; };
+		0703D13216602AE3003C1D8C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../Downloads/Reachability 4/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		0703D13616602BDF003C1D8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F52EF48D165458B9008BAD34 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F52EF48E165458B9008BAD34 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F52EF491165460F1008BAD34 /* NavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		F52EF492165460F1008BAD34 /* NavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		F52EF493165460F1008BAD34 /* NavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavViewController.xib; sourceTree = "<group>"; };
+		F52EF4991654693B008BAD34 /* Building.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		F52EF49A1654693B008BAD34 /* Building.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		F52EF49B1654693B008BAD34 /* Buildings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Buildings.h; sourceTree = "<group>"; };
+		F52EF49C1654693C008BAD34 /* Buildings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buildings.m; sourceTree = "<group>"; };
+		F52EF4A116546AA6008BAD34 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		F52EF4A516546B95008BAD34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F52EF4A716546B9A008BAD34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F53436521666DFB6001544B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5DFE2061666D2250056A293 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		F5DFE2071666D2260056A293 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		F5DFE20A1666D3FC0056A293 /* RouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteViewController.xib; sourceTree = "<group>"; };
+		F5DFE2101666DAD80056A293 /* NoNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoNetworkViewController.h; sourceTree = "<group>"; };
+		F5DFE2111666DAD80056A293 /* NoNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoNetworkViewController.m; sourceTree = "<group>"; };
+		F5DFE2121666DAD80056A293 /* NoNetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoNetworkViewController.xib; sourceTree = "<group>"; };
+		F5DFE2151666DAF60056A293 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F5DFE2161666DAF60056A293 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F5E01A49164B1E7500E716AB /* MiamiMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiamiMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E01A4D164B1E7500E716AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5E01A4F164B1E7500E716AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5E01A51164B1E7500E716AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5E01A55164B1E7600E716AB /* MiamiMapApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiamiMapApp-Info.plist"; sourceTree = "<group>"; };
+		F5E01A57164B1E7600E716AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5E01A59164B1E7600E716AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E01A5B164B1E7600E716AB /* MiamiMapApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiamiMapApp-Prefix.pch"; sourceTree = "<group>"; };
+		F5E01A5C164B1E7600E716AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E01A5D164B1E7600E716AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E01A5F164B1E7600E716AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5E01A61164B1E7600E716AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5E01A63164B1E7600E716AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5E01A65164B1E7600E716AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5E01A66164B1E7600E716AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5E01A69164B1E7600E716AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E01A46164B1E7500E716AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53436531666DFB6001544B3 /* SystemConfiguration.framework in Frameworks */,
+				F52EF4A816546B9A008BAD34 /* MapKit.framework in Frameworks */,
+				F52EF4A616546B95008BAD34 /* CoreLocation.framework in Frameworks */,
+				F5E01A4E164B1E7500E716AB /* UIKit.framework in Frameworks */,
+				F5E01A50164B1E7500E716AB /* Foundation.framework in Frameworks */,
+				F5E01A52164B1E7500E716AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E01A3E164B1E7500E716AB = {
+			isa = PBXGroup;
+			children = (
+				0703D13616602BDF003C1D8C /* SystemConfiguration.framework */,
+				F5E01A53164B1E7500E716AB /* MiamiMapApp */,
+				F5E01A4C164B1E7500E716AB /* Frameworks */,
+				F5E01A4A164B1E7500E716AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E01A4A164B1E7500E716AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E01A49164B1E7500E716AB /* MiamiMapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E01A4C164B1E7500E716AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53436521666DFB6001544B3 /* SystemConfiguration.framework */,
+				F52EF4A716546B9A008BAD34 /* MapKit.framework */,
+				F52EF4A516546B95008BAD34 /* CoreLocation.framework */,
+				F5E01A4D164B1E7500E716AB /* UIKit.framework */,
+				F5E01A4F164B1E7500E716AB /* Foundation.framework */,
+				F5E01A51164B1E7500E716AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E01A53164B1E7500E716AB /* MiamiMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5E01A5C164B1E7600E716AB /* AppDelegate.h */,
+				F5E01A5D164B1E7600E716AB /* AppDelegate.m */,
+				F52EF491165460F1008BAD34 /* NavViewController.h */,
+				F52EF492165460F1008BAD34 /* NavViewController.m */,
+				F52EF493165460F1008BAD34 /* NavViewController.xib */,
+				F5E01A65164B1E7600E716AB /* ViewController.h */,
+				F5E01A66164B1E7600E716AB /* ViewController.m */,
+				F5E01A68164B1E7600E716AB /* ViewController.xib */,
+				F5DFE2061666D2250056A293 /* RouteViewController.h */,
+				F5DFE2071666D2260056A293 /* RouteViewController.m */,
+				F5DFE20A1666D3FC0056A293 /* RouteViewController.xib */,
+				F52EF48D165458B9008BAD34 /* MapViewController.h */,
+				F52EF48E165458B9008BAD34 /* MapViewController.m */,
+				F52EF4A116546AA6008BAD34 /* MapViewController.xib */,
+				F5DFE2151666DAF60056A293 /* Reachability.h */,
+				F5DFE2161666DAF60056A293 /* Reachability.m */,
+				F5DFE2101666DAD80056A293 /* NoNetworkViewController.h */,
+				F5DFE2111666DAD80056A293 /* NoNetworkViewController.m */,
+				F5DFE2121666DAD80056A293 /* NoNetworkViewController.xib */,
+				F52EF4991654693B008BAD34 /* Building.h */,
+				F52EF49A1654693B008BAD34 /* Building.m */,
+				F52EF49B1654693B008BAD34 /* Buildings.h */,
+				F52EF49C1654693C008BAD34 /* Buildings.m */,
+				F5E01A54164B1E7500E716AB /* Supporting Files */,
+			);
+			path = MiamiMapApp;
+			sourceTree = "<group>";
+		};
+		F5E01A54164B1E7500E716AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0703D13116602AE3003C1D8C /* Reachability.m */,
+				0703D13216602AE3003C1D8C /* Reachability.h */,
+				F5E01A55164B1E7600E716AB /* MiamiMapApp-Info.plist */,
+				F5E01A56164B1E7600E716AB /* InfoPlist.strings */,
+				F5E01A59164B1E7600E716AB /* main.m */,
+				F5E01A5B164B1E7600E716AB /* MiamiMapApp-Prefix.pch */,
+				F5E01A5F164B1E7600E716AB /* Default.png */,
+				F5E01A61164B1E7600E716AB /* Default@2x.png */,
+				F5E01A63164B1E7600E716AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E01A48164B1E7500E716AB /* MiamiMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E01A6D164B1E7600E716AB /* Build configuration list for PBXNativeTarget "MiamiMapApp" */;
+			buildPhases = (
+				F5E01A45164B1E7500E716AB /* Sources */,
+				F5E01A46164B1E7500E716AB /* Frameworks */,
+				F5E01A47164B1E7500E716AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiamiMapApp;
+			productName = MiamiMapApp;
+			productReference = F5E01A49164B1E7500E716AB /* MiamiMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E01A40164B1E7500E716AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = eliotfowler;
+			};
+			buildConfigurationList = F5E01A43164B1E7500E716AB /* Build configuration list for PBXProject "MiamiMapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5E01A3E164B1E7500E716AB;
+			productRefGroup = F5E01A4A164B1E7500E716AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E01A48164B1E7500E716AB /* MiamiMapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E01A47164B1E7500E716AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52EF49716546425008BAD34 /* ViewController.xib in Resources */,
+				F52EF495165463E8008BAD34 /* NavViewController.xib in Resources */,
+				F5E01A58164B1E7600E716AB /* InfoPlist.strings in Resources */,
+				F5E01A60164B1E7600E716AB /* Default.png in Resources */,
+				F5E01A62164B1E7600E716AB /* Default@2x.png in Resources */,
+				F5E01A64164B1E7600E716AB /* Default-568h@2x.png in Resources */,
+				F52EF4A216546AA7008BAD34 /* MapViewController.xib in Resources */,
+				F5DFE20B1666D3FC0056A293 /* RouteViewController.xib in Resources */,
+				F5DFE2141666DAD90056A293 /* NoNetworkViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E01A45164B1E7500E716AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52EF4A316546ACB008BAD34 /* Building.m in Sources */,
+				F52EF4A416546ACB008BAD34 /* Buildings.m in Sources */,
+				F52EF498165466A1008BAD34 /* MapViewController.m in Sources */,
+				F52EF49416546274008BAD34 /* NavViewController.m in Sources */,
+				F5E01A5A164B1E7600E716AB /* main.m in Sources */,
+				F5E01A5E164B1E7600E716AB /* AppDelegate.m in Sources */,
+				F5E01A67164B1E7600E716AB /* ViewController.m in Sources */,
+				F5DFE2081666D2260056A293 /* RouteViewController.m in Sources */,
+				F5DFE2131666DAD90056A293 /* NoNetworkViewController.m in Sources */,
+				F5DFE2171666DAF70056A293 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E01A56164B1E7600E716AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E01A57164B1E7600E716AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5E01A68164B1E7600E716AB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E01A69164B1E7600E716AB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E01A6B164B1E7600E716AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5E01A6C164B1E7600E716AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E01A6E164B1E7600E716AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiamiMapApp/MiamiMapApp-Prefix.pch";
+				INFOPLIST_FILE = "MiamiMapApp/MiamiMapApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5E01A6F164B1E7600E716AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiamiMapApp/MiamiMapApp-Prefix.pch";
+				INFOPLIST_FILE = "MiamiMapApp/MiamiMapApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E01A43164B1E7500E716AB /* Build configuration list for PBXProject "MiamiMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E01A6B164B1E7600E716AB /* Debug */,
+				F5E01A6C164B1E7600E716AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E01A6D164B1E7600E716AB /* Build configuration list for PBXNativeTarget "MiamiMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E01A6E164B1E7600E716AB /* Debug */,
+				F5E01A6F164B1E7600E716AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E01A40164B1E7500E716AB /* Project object */;
+}
